@@ -8,11 +8,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+a {
+    color: inherit;
+}
+
 .large-heading {
     font-family: 'Lobster', cursive;
     font-size: 40px;
     font-weight: normal;
-    text-align: center;
 }
 
 .content {
@@ -39,6 +42,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mail-footer {
+    background: #f8f8f8;
     padding: 2em 1em;
     text-align: center;
+}
+
+.mail-footer a {
+    color: inherit;
 }
